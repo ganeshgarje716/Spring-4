@@ -1,6 +1,7 @@
 package com.demo;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Student {
 	
@@ -13,6 +14,8 @@ public class Student {
 	
 	private String[]subjects;
 	
+	private List<Integer> marks;
+	
 	
 	
 	public void display() {
@@ -21,11 +24,17 @@ public class Student {
 		System.out.println("Name    = "+name);
 		System.out.println("Address = "+address);
 		System.out.println("Subject = "+Arrays.toString(subjects));
-		System.out.println("=======================");
+		marks.forEach(i->System.out.print("Marks = "+i+", "));
+		System.out.println("\n=======================");
 	}
 	
 	
 	
+
+	public void setMarks(List<Integer> marks) {
+		this.marks = marks;
+	}
+
 
 	public void setSubjects(String[] subjects) {
 		this.subjects = subjects;

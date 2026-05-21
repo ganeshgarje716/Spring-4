@@ -24,7 +24,20 @@
      
      </array>
      
-     </property>  
+     </property> 
+     
+     <property name="marks">
+     
+     <list>
+     
+     <value>90</value>
+     <value>95</value>
+     <value>80</value>
+     <value>85</value>
+     
+     </list>
+     
+     </property> 
      
     
     </bean>
@@ -50,6 +63,19 @@
      </array>
      
      </property>   
+     
+     <property name="marks">
+     
+     <list>
+     
+     <value>90</value>
+     <value>95</value>
+     <value>80</value>
+     <value>85</value>
+     
+     </list>
+     
+     </property>
      
     
     </bean>
