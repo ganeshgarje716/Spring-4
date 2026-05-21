@@ -1,5 +1,7 @@
 package com.demo;
 
+import java.util.Arrays;
+
 public class Student {
 	
 	
@@ -9,6 +11,8 @@ public class Student {
 	
 	private String address;
 	
+	private String[]subjects;
+	
 	
 	
 	public void display() {
@@ -16,10 +20,17 @@ public class Student {
 		System.out.println("ID      = "+id);
 		System.out.println("Name    = "+name);
 		System.out.println("Address = "+address);
+		System.out.println("Subject = "+Arrays.toString(subjects));
 		System.out.println("=======================");
 	}
 	
 	
+	
+
+	public void setSubjects(String[] subjects) {
+		this.subjects = subjects;
+	}
+
 
 	public void setId(int id) {
 		this.id = id;

@@ -11,7 +11,20 @@
      
      <property name="name" value="Ganesh"></property>
      
-     <property name="address" value="Pune"></property>   
+     <property name="address" value="Pune"></property> 
+     
+     <property name="subjects">
+     
+     <array>
+     
+     <value>JAVA</value>
+     <value>Python</value>
+     <value>C</value>
+     <value>C++</value>
+     
+     </array>
+     
+     </property>  
      
     
     </bean>
@@ -23,7 +36,20 @@
      
      <property name="name" value="Ram"></property>
      
-     <property name="address" value="Mumbai"></property>   
+     <property name="address" value="Mumbai"></property> 
+     
+     <property name="subjects">
+     
+     <array>
+     
+     <value>JAVA</value>
+     <value>Python</value>
+     <value>C</value>
+     <value>C++</value>
+     
+     </array>
+     
+     </property>   
      
     
     </bean>
