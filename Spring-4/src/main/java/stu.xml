@@ -4,6 +4,28 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- bean definitions here -->
+    <bean id="s1" class="com.demo.Student">
+    
+    
+     <property name="id" value="101"></property>
+     
+     <property name="name" value="Ganesh"></property>
+     
+     <property name="address" value="Pune"></property>   
+     
+    
+    </bean>
+    
+    <bean id="s2" class="com.demo.Student">
+    
+    
+     <property name="id" value="102"></property>
+     
+     <property name="name" value="Ram"></property>
+     
+     <property name="address" value="Mumbai"></property>   
+     
+    
+    </bean>
 
 </beans>
